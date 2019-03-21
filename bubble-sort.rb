@@ -4,8 +4,8 @@
 
 
 def bubble_sort(array)
-  swapped = false
-    while !swapped
+  swapped = true
+    while swapped
       j = 0
       swapped = false
       while j < array.length - 1
