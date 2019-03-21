@@ -4,15 +4,15 @@
 
 
 def bubble_sort(array)
-	swapped = true
-	while swapped
-		j = 0
-		swapped = false
-		while j < array.length - 1
-			if (array[j] > array[j + 1]) then array[j], array[j + 1] = array[j + 1], array[j]; swapped = true end
-			j += 1
-		end
-	end
+  swapped = false
+    while !swapped
+      j = 0
+      swapped = false
+      while j < array.length - 1
+        if (array[j] > array[j + 1]) then array[j], array[j + 1] = array[j + 1], array[j]; swapped = true end
+        j += 1
+      end
+    end
 end
 
 def bubble_sort_by(array)
