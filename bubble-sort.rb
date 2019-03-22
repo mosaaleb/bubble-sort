@@ -27,7 +27,7 @@ def bubble_sort_by(array)
 end
 
 ### TESTS
-# a = ["hi","hello","hey", "lkjsdf'", "lkjsdklfjsldjfklsjdlfjslkdf", "klfsdjklfjskldjflkjskldfklsjdklfj"]
+# a = ["hi","hello","hey", "lkjsdf", "lsjdklfj"]
 # b = [1, 234, 432 ,992, 234]
 # bubble_sort_by(a) do |left,right|
 # left.length - right.length
